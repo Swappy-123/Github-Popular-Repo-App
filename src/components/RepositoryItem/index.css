@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.item-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px;
+  background-color: #f8f8ff;
+  border: 0px solid;
+  border-radius: 12px;
+  margin: 12px;
+}
+
+.avatar-img {
+  height: 50px;
+  width: 50px;
+  margin: 12px;
+}
+
+.img {
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+}
+
+.con-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.item-head {
+  color: #e73959;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 7px;
+}
+
+.item-para {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin: 7px;
+}
